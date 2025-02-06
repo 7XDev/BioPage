@@ -1,17 +1,11 @@
 // Array containing different titles to cycle through
 var titles = [
   "@",
-  "@Y",
-  "@Yo",
-  "@Yog",
-  "@Yogh",
-  "@Yoghu",
-  "@Yoghur",
-  "@Yoghurt",
-  "@Yoghurt 1",
-  "@Yoghurt 13",
-  "@Yoghurt 133",
-  "@Yoghurt 1337"
+  "@7",
+  "@7X",
+  "@7XD",
+  "@7XDE",
+  "@7XDEV",
 ];
 
 // Function to change the title periodically
@@ -24,7 +18,7 @@ function changeTitle() {
       document.title = titles[index];
       // Increment the index and use modulo operator to ensure it stays within the bounds of the array
       index = (index + 1) % titles.length;
-  }, 1000); // Interval set to 1000 milliseconds (1 second)
+  }, 1500); // Interval set to 1000 milliseconds (1 second)
 }
 
 // Call the function to start changing the title
